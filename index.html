@@ -4,50 +4,59 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="src/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@400..700&family=Michroma&family=Oswald:wght@200;300;400;500&family=Roboto+Condensed&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
     <title>Song Lyric Generator</title>
   </head>
   <body>
-    <header>
-      <h1>Song Lyric Generator</h1>
-    </header>
-    <main>
-      <form>
-        <input
-          type="text"
-          placeholder="Type your song 'muse' here..."
-          autocomplete="off"
-          autofocus
-          required
-        />
-        <input type="/submit" placeholder="Submit" />
-      </form>
-      <div>
-        "Even old New York, was once New Amsterdam
-        <br />
-        Why they changed it, I can't say
-        <br />
-        People just liked it better that way
-        <br />
-        So, take me back to Constantinople
-        <br />
-        No, you can't go back to Constantinople"
-      </div>
-    </main>
-    <footer>
-      This project was coded by
-      <a href="https://github.com/SophieLMD" target="_blank"> Sophie Davies</a>:
-      opensourced on
-      <a
-        href="https://github.com/SophieLMD/song-lyric-generator"
-        target="_blank"
-        >Github</a
-      >
-      and hosted on
-      <a href="https://song-lyric-generator-slmd.netlify.app/" target="_blank"
-        >Netlify</a
-      >
-      ♥️
-    </footer>
-    <script src="src/index.js"></script>
+    <div class="container">
+      <header>
+        <h1>Song Lyric Generator</h1>
+      </header>
+      <main>
+        <form">
+          <input
+            type="text"
+            placeholder="Type your song 'muse' here..."
+            autocomplete="off"
+            autofocus
+            required
+            class="enter-details"
+          />
+          <input type="/submit" placeholder="Submit" class="submit-button"/>
+        </form>
+        <div class="song">
+          "Even old New York, was once New Amsterdam
+          <br />
+          Why they changed it, I can't say
+          <br />
+          People just liked it better that way
+          <br />
+          So, take me back to Constantinople
+          <br />
+          No, you can't go back to Constantinople"
+        </div>
+      </main>
+      <footer>
+        This project was coded by
+        <a href="https://github.com/SophieLMD" target="_blank"> Sophie Davies</a
+        >: opensourced on
+        <a
+          href="https://github.com/SophieLMD/song-lyric-generator"
+          target="_blank"
+          >Github</a
+        >
+        and hosted on
+        <a href="https://song-lyric-generator-slmd.netlify.app/" target="_blank"
+          >Netlify</a
+        >
+        ♥️
+      </footer>
+      <script src="src/index.js"></script>
+    </div>
   </body>
 </html>
