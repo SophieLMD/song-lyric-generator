@@ -11,6 +11,7 @@
       rel="stylesheet"
     />
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
     <title>Song Lyric Generator</title>
   </head>
   <body>
@@ -26,7 +27,8 @@
             autocomplete="off"
             autofocus
             required
-            class="enter-details"
+            class="user-input"
+            id="user-input"
           />
           <input type="submit" placeholder="Submit" class="submit-button" />
         </form>
