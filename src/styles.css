@@ -9,14 +9,14 @@ h1 {
   text-align: center;
   font-size: 40px;
   padding: 15px 1em 0 2em;
+  color: #272343;
 }
 form {
   padding: 30px;
   background-color: #e3f6f5;
-  border-radius: 8px;
+  border-radius: 6px;
   display: flex;
-  margin-bottom: 30px;
-  max-width: 80%;
+  margin-bottom: 15px;
 }
 a {
   color: #272343;
@@ -26,17 +26,16 @@ a {
   margin: 120px auto;
   max-width: 600px;
   background-color: #ffffff;
-  border-radius: 8px;
+  border-radius: 6px;
   padding: 20px;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 .enter-details {
   padding: 10px;
-  margin-left: 10px;
-  border-radius: 8px;
+  border-radius: 18px;
   border: 1px solid rgba(39, 33, 66, 0.5);
   font-size: 16px;
-  background-color: #e3f6f5;
+  background-color: #ffffff;
   color: #000000;
   line-height: 20px;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
@@ -44,8 +43,8 @@ a {
 }
 .submit-button {
   margin-left: 5px;
-  padding: 10px;
-  border-radius: 8px;
+  padding: 15px 24px;
+  border-radius: 18px;
   border: none;
   font-size: 14px;
   line-height: 20px;
@@ -53,19 +52,16 @@ a {
   background-color: #272343;
   color: #ffffff;
   font-weight: bold;
-  width: 50px;
 }
 .song {
   font-size: 18px;
   background-color: #e3f6f5;
-  font-family: "Edu NSW ACT Foundation", cursive;
-  max-width: 100%;
+  font-family: "Shadows Into Light", cursive;
   padding: 10px;
-  margin: 10px;
   line-height: 25px;
   font-weight: 500;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-  border-radius: 8px;
+  border-radius: 6px;
 }
 footer {
   text-align: center;

@@ -7,9 +7,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@400..700&family=Michroma&family=Oswald:wght@200;300;400;500&family=Roboto+Condensed&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@400..700&family=Michroma&family=Oswald:wght@200;300;400;500&family=Roboto+Condensed&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Shadows+Into+Light&display=swap"
       rel="stylesheet"
     />
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <title>Song Lyric Generator</title>
   </head>
   <body>
@@ -18,7 +19,7 @@
         <h1>Song Lyric Generator</h1>
       </header>
       <main>
-        <form">
+        <form id="song-generator-form">
           <input
             type="text"
             placeholder="Type your song 'muse' here..."
@@ -27,19 +28,9 @@
             required
             class="enter-details"
           />
-          <input type="/submit" placeholder="Submit" class="submit-button"/>
+          <input type="submit" placeholder="Submit" class="submit-button" />
         </form>
-        <div class="song">
-          "Even old New York, was once New Amsterdam
-          <br />
-          Why they changed it, I can't say
-          <br />
-          People just liked it better that way
-          <br />
-          So, take me back to Constantinople
-          <br />
-          No, you can't go back to Constantinople"
-        </div>
+        <div class="song" id="song"></div>
       </main>
       <footer>
         This project was coded by
