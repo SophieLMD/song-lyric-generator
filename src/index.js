@@ -5,7 +5,6 @@ function displaySong(response) {
     delay: 1,
     cursor: "",
   });
-  console.log("song generated");
 }
 function generateSong(event) {
   event.preventDefault();
@@ -19,9 +18,6 @@ function generateSong(event) {
   songElement.classList.remove("hidden");
   songElement.innerHTML = `<div class="generating">⏱ Generating humorous song lyrics about ${instructionsInput.value}.</div>`;
   axios.get(apiUrl).then(displaySong);
-  console.log("generating song");
-  console.log(`Prompt: ${prompt}`);
-  console.log(`Context: ${context}`);
 }
 let songFormElement = document.querySelector("#song-generator-form");
 songFormElement.addEventListener("submit", generateSong);
