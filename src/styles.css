@@ -12,15 +12,13 @@ h1 {
   color: #3a4750;
 }
 form {
+  display: flex;
+}
+.form-container {
   padding: 30px;
   background-color: #d3d6db;
   border-radius: 6px;
-  display: flex;
   margin-bottom: 15px;
-}
-a {
-  color: #be3544;
-  font-weight: 500;
 }
 .container {
   margin: 120px auto;
@@ -53,6 +51,25 @@ a {
   color: #ffffff;
   font-weight: bold;
 }
+.example {
+  line-height: 1.5;
+  font-size: 13px;
+  margin-top: 10px;
+  opacity: 0.6;
+}
+.generating {
+  animation: blink-animation 1s steps(5, start) infinite;
+}
+@keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+@-webkit-keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
 .song {
   font-size: 18px;
   background-color: #d3d6db;
@@ -66,8 +83,16 @@ a {
 .song strong {
   color: #be3544;
 }
+.hidden {
+  display: none;
+}
 footer {
   text-align: center;
   font-size: 13px;
   margin-top: 20px;
+  opacity: 0.8;
+}
+a {
+  color: #be3544;
+  font-weight: 500;
 }

@@ -20,19 +20,22 @@
         <h1>Song Lyric Generator</h1>
       </header>
       <main>
-        <form id="song-generator-form">
-          <input
-            type="text"
-            placeholder="Type your song 'muse' here..."
-            autocomplete="off"
-            autofocus
-            required
-            class="user-input"
-            id="user-input"
-          />
-          <input type="submit" placeholder="Submit" class="submit-button" />
-        </form>
-        <div class="song" id="song"></div>
+        <div class="form-container">
+          <form id="song-generator-form">
+            <input
+              type="text"
+              placeholder="Type your song 'muse', or theme, here..."
+              autocomplete="off"
+              autofocus
+              required
+              class="user-input"
+              id="user-input"
+            />
+            <input type="submit" placeholder="Submit" class="submit-button" />
+          </form>
+          <div class="example">e.g. love, life, friends, nature...</div>
+        </div>
+        <div class="song hidden" id="song"></div>
       </main>
       <footer>
         This project was coded by
