@@ -1,6 +1,6 @@
 body {
   font-family: "Roboto", sans-serif;
-  background-color: #bae8e8;
+  background-color: #d3d6db;
 }
 header {
   margin: 25px;
@@ -9,17 +9,17 @@ h1 {
   text-align: center;
   font-size: 40px;
   padding: 15px 1em 0 2em;
-  color: #272343;
+  color: #3a4750;
 }
 form {
   padding: 30px;
-  background-color: #e3f6f5;
+  background-color: #d3d6db;
   border-radius: 6px;
   display: flex;
   margin-bottom: 15px;
 }
 a {
-  color: #272343;
+  color: #be3544;
   font-weight: 500;
 }
 .container {
@@ -49,19 +49,22 @@ a {
   font-size: 14px;
   line-height: 20px;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-  background-color: #272343;
+  background-color: #be3544;
   color: #ffffff;
   font-weight: bold;
 }
 .song {
   font-size: 18px;
-  background-color: #e3f6f5;
+  background-color: #d3d6db;
   font-family: "Shadows Into Light", cursive;
   padding: 10px;
   line-height: 25px;
   font-weight: 500;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   border-radius: 6px;
+}
+.song strong {
+  color: #be3544;
 }
 footer {
   text-align: center;
